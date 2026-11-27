@@ -1,0 +1,13 @@
+{
+  "name": "christmas-tree-customizable",
+  "version": "1.0.0",
+  "private": true,
+  "description": "圣诞树（可定制）：输入名字、选择颜色、上传照片，生成可分享的互动照片墙网页。",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node preview.cjs",
+    "build": "node build.cjs",
+    "check": "node verify.cjs"
+  }
+}
